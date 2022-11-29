@@ -19,8 +19,13 @@ p {
   display: inline-block;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.button2, .button3 {
+.button2{
   display: inline-block;
+  margin: auto;
+}
+ .button3 {
+  display: inline-block;
+  margin: auto;
 }
 .button2 {
   font-size: 24px;
@@ -31,7 +36,7 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 .button3 {
   font-size: 24px;
@@ -42,5 +47,5 @@ p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
