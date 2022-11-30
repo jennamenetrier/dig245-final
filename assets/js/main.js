@@ -10,7 +10,7 @@ document.getElementById("button-0-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-0-a").style.backgroundColor="Red";
   }
-
+  document.getElementById("button-0-b").style.display="none";
 });
 document.getElementById("button-0-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -19,7 +19,7 @@ document.getElementById("button-0-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-0-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-0-a").style.display="none";
 });
 
 
@@ -30,7 +30,7 @@ document.getElementById("button-1-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-1-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-1-b").style.display="none";
 });
 document.getElementById("button-1-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -39,7 +39,7 @@ document.getElementById("button-1-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-1-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-1-a").style.display="none";
 });
 document.getElementById("button-2-a").addEventListener("click", function(){
    userAnswer.push("a");
@@ -48,7 +48,7 @@ document.getElementById("button-2-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-2-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-2-a").style.display="none";
 });
 document.getElementById("button-2-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -57,7 +57,7 @@ document.getElementById("button-2-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-2-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-2-a").style.display="none";
 });
 document.getElementById("button-3-a").addEventListener("click", function(){
    userAnswer.push("a");
@@ -66,7 +66,7 @@ document.getElementById("button-3-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-3-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-3-b").style.display="none";
 });
 document.getElementById("button-3-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -75,7 +75,7 @@ document.getElementById("button-3-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-3-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-3-a").style.display="none";
 });
 document.getElementById("button-4-a").addEventListener("click", function(){
    userAnswer.push("a");
@@ -84,7 +84,7 @@ document.getElementById("button-4-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-4-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-4-b").style.display="none";
 });
 document.getElementById("button-4-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -93,7 +93,7 @@ document.getElementById("button-4-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-4-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-4-a").style.display="none";
 });
 document.getElementById("button-5-a").addEventListener("click", function(){
    userAnswer.push("a");
@@ -102,7 +102,7 @@ document.getElementById("button-5-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-5-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-5-b").style.display="none";
 });
 document.getElementById("button-5-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -111,7 +111,7 @@ document.getElementById("button-5-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-5-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-5-a").style.display="none";
 });
 document.getElementById("button-6-a").addEventListener("click", function(){
    userAnswer.push("a");
@@ -120,7 +120,7 @@ document.getElementById("button-6-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-6-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-6-b").style.display="none";
 });
 document.getElementById("button-6-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -129,7 +129,7 @@ document.getElementById("button-6-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-6-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-6-a").style.display="none";
 });
 document.getElementById("button-7-a").addEventListener("click", function(){
    userAnswer.push("a");
@@ -138,7 +138,7 @@ document.getElementById("button-7-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-7-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-7-b").style.display="none";
 });
 document.getElementById("button-7-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -147,7 +147,7 @@ document.getElementById("button-7-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-7-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-7-a").style.display="none";
 });
 document.getElementById("button-8-a").addEventListener("click", function(){
    userAnswer.push("a");
@@ -156,7 +156,7 @@ document.getElementById("button-8-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-8-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-8-b").style.display="none";
 });
 document.getElementById("button-8-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -165,7 +165,7 @@ document.getElementById("button-8-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-8-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-8-a").style.display="none";
 });
 document.getElementById("button-9-a").addEventListener("click", function(){
    userAnswer.push("a");
@@ -174,7 +174,7 @@ document.getElementById("button-9-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-9-a").style.backgroundColor="Red";
   }
-
+document.getElementById("button-9-b").style.display="none";
 });
 document.getElementById("button-9-b").addEventListener("click", function(){
    userAnswer.push("b");
@@ -183,5 +183,5 @@ document.getElementById("button-9-b").addEventListener("click", function(){
   } else{
     document.getElementById("button-9-b").style.backgroundColor="red";
   }
-
+document.getElementById("button-9-a").style.display="none";
 });

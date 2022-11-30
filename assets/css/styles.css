@@ -1,5 +1,18 @@
 
 /* css */
+h1{
+  background-color: #FF21A6;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+h3{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+}
 *{
   box-sizing: border-box;
 
@@ -52,9 +65,57 @@ ul li label{
 button{
   border: none;
   display: block;
+  font-weight: bold;
+  color: #fff;
+  background-color: #11C0CB;
   width: 100%;
   cursor: pointer;
   font-size: 1.1rem;
   font-family: inherit;
   padding: 1.3rem;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FF21A6;
+  font-weight: bold;
+
+}
+
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 480px;
+  background-color: navy;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
 }
