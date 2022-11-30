@@ -44,9 +44,9 @@ document.getElementById("button-1-a").style.display="none";
 document.getElementById("button-2-a").addEventListener("click", function(){
    userAnswer.push("a");
   if (userAnswer[2]===quizAnswer[2]) {
-    document.getElementById("button-2-a").style.backgroundColor="Green";
+    document.getElementById("button-2-a").style.backgroundColor="green";
   } else{
-    document.getElementById("button-2-a").style.backgroundColor="Red";
+    document.getElementById("button-2-a").style.backgroundColor="red";
   }
 document.getElementById("button-2-b").style.display="none";
 });
