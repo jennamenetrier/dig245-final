@@ -48,7 +48,7 @@ document.getElementById("button-2-a").addEventListener("click", function(){
   } else{
     document.getElementById("button-2-a").style.backgroundColor="Red";
   }
-document.getElementById("button-2-a").style.display="none";
+document.getElementById("button-2-b").style.display="none";
 });
 document.getElementById("button-2-b").addEventListener("click", function(){
    userAnswer.push("b");
