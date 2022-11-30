@@ -50,8 +50,6 @@ ul li label{
   cursor: all-scroll;
 }
 button{
-  background-color: #03cae4;
-  color: #fff;
   border: none;
   display: block;
   width: 100%;
@@ -59,11 +57,4 @@ button{
   font-size: 1.1rem;
   font-family: inherit;
   padding: 1.3rem;
-}
-button:hover{
-  background-color: #04adc4;
-}
-button:focus{
-  outline: none;
-  background-color: #44b927;
 }
