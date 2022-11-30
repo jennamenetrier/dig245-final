@@ -3,55 +3,55 @@ const quizData = [
         question: "Does this logo look good or bad?",
         a: "Yes",
         b: "No",
-        correct: "a",
+        answer: "a",
     },
     {
         question: "Does this logo look good or bad?",
         a: "Yes",
         b: "No",
-        correct: "b",
+        answer: "b",
     },
     {
         question: "Does this logo look good or bad?",
         a: "Yes",
         b: "No",
-        correct: "a",
+        answer: "a",
     },
     {
         question: "Does this logo look good or bad?",
         a: "Yes",
         b: "No",
-        correct: "b",
+        answer: "b",
     },
     {
         question: "Does this logo look good or bad?",
         a: "Yes",
         b: "No",
-        correct: "b",
+        answer: "b",
     },
       {
           question: "Does this logo look good or bad?",
           a: "Yes",
           b: "No",
-          correct: "a",
+          answer: "a",
     },
       {
             question: "Does this logo look good or bad?",
             a: "Yes",
             b: "No",
-            correct: "b",
+            answer: "b",
     },
      {
               question: "Does this logo look good or bad?",
               a: "Yes",
               b: "No",
-              correct: "a",
+              answer: "a",
     },
      {
                 question: "Does this logo look good or bad?",
                 a: "Yes",
                 b: "No",
-                correct: "b",
+                answer: "b",
             },
 ];
 const quiz= document.getElementById('quiz');
@@ -60,8 +60,8 @@ const questionEl = document.getElementById('question');
 const a_text = document.getElementById('a_text');
 const b_text = document.getElementById('b_text');
 const submitBtn = document.getElementById('submit');
-let currentQuiz = 100;
-let score = 100;
+let currentQuiz = 0;
+let score = 0;
 loadQuiz();
 function loadQuiz() {
     deselectAnswers();
@@ -71,7 +71,7 @@ function loadQuiz() {
     b_text.innerText = currentQuizData.b;
 }
 function deselectAnswers() {
-    answerEls.forEach(answerEl => answerEl.checked = false);
+    answerEls.forEach(answerEl => answerEl.checked = true);
 }
 function getSelected() {
     let answer;
@@ -85,7 +85,7 @@ function getSelected() {
 submitBtn.addEventListener('click', () => {
     const answer = getSelected();
     if(answer) {
-       if(answer === quizData[currentQuiz].correct) {
+       if(answer === quizData[currentQuiz].answer) {
            score++;
        }
        currentQuiz++;
