@@ -1,6 +1,6 @@
 
 /* javascript */
-const quizAnswer =  ["a", 'b', 'a', 'b', 'b', 'a', 'b', 'a', 'b', 'b'];
+const quizAnswer =  ["a", 'b', "b", 'b', 'b', 'a', 'b', 'a', 'b', 'b'];
 const userAnswer = [];
 
 document.getElementById("button-0-a").addEventListener("click", function(){
@@ -41,24 +41,30 @@ document.getElementById("button-1-b").addEventListener("click", function(){
   }
 document.getElementById("button-1-a").style.display="none";
 });
+
+
+
 document.getElementById("button-2-a").addEventListener("click", function(){
    userAnswer.push("a");
-  if (userAnswer[2]===quizAnswer[2]) {
-    document.getElementById("button-2-a").style.backgroundColor="green";
+  if (userAnswer[1]===quizAnswer[1]) {
+    document.getElementById("button-2-a").style.backgroundColor="Green";
   } else{
-    document.getElementById("button-2-a").style.backgroundColor="red";
+    document.getElementById("button-2-a").style.backgroundColor="Red";
   }
 document.getElementById("button-2-b").style.display="none";
 });
 document.getElementById("button-2-b").addEventListener("click", function(){
    userAnswer.push("b");
-  if (userAnswer[2]===quizAnswer[2]) {
+  if (userAnswer[1]===quizAnswer[1]) {
     document.getElementById("button-2-b").style.backgroundColor="green";
   } else{
     document.getElementById("button-2-b").style.backgroundColor="red";
   }
 document.getElementById("button-2-a").style.display="none";
 });
+
+
+
 document.getElementById("button-3-a").addEventListener("click", function(){
    userAnswer.push("a");
   if (userAnswer[3]===quizAnswer[3]) {
